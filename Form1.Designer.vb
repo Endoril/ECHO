@@ -22,21 +22,21 @@ Partial Class Form1
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
-        Button1 = New Button()
+        btnEinnahmeHinzufügen = New Button()
         Button2 = New Button()
         Label1 = New Label()
         Label2 = New Label()
         Label3 = New Label()
         SuspendLayout()
         ' 
-        ' Button1
+        ' btnEinnahmeHinzufügen
         ' 
-        Button1.Location = New Point(31, 38)
-        Button1.Name = "Button1"
-        Button1.Size = New Size(94, 56)
-        Button1.TabIndex = 0
-        Button1.Text = "Einnahme hinzufügen"
-        Button1.UseVisualStyleBackColor = True
+        btnEinnahmeHinzufügen.Location = New Point(31, 38)
+        btnEinnahmeHinzufügen.Name = "btnEinnahmeHinzufügen"
+        btnEinnahmeHinzufügen.Size = New Size(94, 56)
+        btnEinnahmeHinzufügen.TabIndex = 0
+        btnEinnahmeHinzufügen.Text = "Einnahme hinzufügen"
+        btnEinnahmeHinzufügen.UseVisualStyleBackColor = True
         ' 
         ' Button2
         ' 
@@ -61,9 +61,9 @@ Partial Class Form1
         Label2.AutoSize = True
         Label2.Location = New Point(165, 181)
         Label2.Name = "Label2"
-        Label2.Size = New Size(122, 20)
+        Label2.Size = New Size(132, 20)
         Label2.TabIndex = 3
-        Label2.Text = "Ausgaben Monat"
+        Label2.Text = "Ausgaben (Monat)"
         ' 
         ' Label3
         ' 
@@ -78,19 +78,19 @@ Partial Class Form1
         ' 
         AutoScaleDimensions = New SizeF(8F, 20F)
         AutoScaleMode = AutoScaleMode.Font
-        ClientSize = New Size(323, 233)
+        ClientSize = New Size(494, 248)
         Controls.Add(Label3)
         Controls.Add(Label2)
         Controls.Add(Label1)
         Controls.Add(Button2)
-        Controls.Add(Button1)
+        Controls.Add(btnEinnahmeHinzufügen)
         Name = "Form1"
         Text = "Form1"
         ResumeLayout(False)
         PerformLayout()
     End Sub
 
-    Friend WithEvents Button1 As Button
+    Friend WithEvents btnEinnahmeHinzufügen As Button
     Friend WithEvents Button2 As Button
     Friend WithEvents Label1 As Label
     Friend WithEvents Label2 As Label
